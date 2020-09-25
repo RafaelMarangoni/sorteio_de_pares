@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sorteio de Duplas</title>
+</head>
+<body>
+	<header>
+		<h1>Sorteio de Duplas</h1>
+	</header>
+	<section>
+		<form>
+			<label for="nameParticipant">Participante(s)</label>
+			<input type="text" id="nameParticipant" maxlength="40" value="">
+			<input type="button" id="btnAdd" value="Incluir">
+			<input type="button" id="btnRandom" value="Sortear">
+			<input type="button" id="btnClear" value="Limpar">
+		</form>
+	</section>
+	<section>
+		<h2>Participante(s)</h2>
+		<ol id="listParticipant"></ol>
+	</section>
+	<section>
+		<h2>Dupla(s)</h2>
+		<ol id="pairsParticipant"></ol>
+	</section>
+	<script src="random.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
